@@ -8,6 +8,6 @@ spring:
       ddl-auto: update
 
 management:
-	info:
-		git:
-			mode: full
+  info:
+    git:
+      mode: full
