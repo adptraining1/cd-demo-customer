@@ -1,0 +1,13 @@
+server:
+  port: 9091
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+management:
+	info:
+		git:
+			mode: full
