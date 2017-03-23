@@ -2,7 +2,7 @@ package com.innoq.mploed.ddd.customer.domainevents;
 
 import com.innoq.mploed.ddd.customer.domain.Kunde;
 
-public class CustomerCreatedEvent {
+public class CustomerCreatedEvent implements DomainEvent {
     private Long id;
     private String vorname;
     private String nachname;
