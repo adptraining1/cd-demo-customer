@@ -4,5 +4,5 @@ applications:
   memory: 1024M
   path: target/cd-customer-0.1.0.jar
   services:
-      - mysql-customer
+      - mysql-customer-db
       - redis-pubsub
