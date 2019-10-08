@@ -1,7 +1,5 @@
 package com.innoq.mploed.ddd.customer;
 
-import org.springframework.cloud.Cloud;
-import org.springframework.cloud.CloudFactory;
 import org.springframework.cloud.config.java.AbstractCloudConfig;
 import org.springframework.cloud.service.PooledServiceConnectorConfig;
 import org.springframework.cloud.service.relational.DataSourceConfig;
