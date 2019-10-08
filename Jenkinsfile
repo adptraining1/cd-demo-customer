@@ -28,7 +28,7 @@ node {
    }
    
    stage('Push to CF') {
-    pushToCloudFoundry cloudSpace: 'adp', credentialsId: '3c8d45c3-9168-46c0-ac8d-fad8eefa8f8c', organization: 'michael.ploed-org', selfSigned: 'true', target: 'target/cd-customer-0.1.0.jar'
+    pushToCloudFoundry cloudSpace: 'adp', credentialsId: '3c8d45c3-9168-46c0-ac8d-fad8eefa8f8c', organization: 'michael.ploed-org', selfSigned: 'true', target: 'api.run.pivotal.io'
   
    }
 }
