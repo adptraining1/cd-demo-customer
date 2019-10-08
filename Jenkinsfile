@@ -16,7 +16,7 @@ node {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
    }
-   stage("Sonar Qube") {
+   stage("Sonar Qube Analyse") {
        def scannerHome = tool 'SonarQube Scanner 3.0';
         withSonarQubeEnv('Local SonarQube') {
             sh "${scannerHome}/bin/sonar-scanner"
